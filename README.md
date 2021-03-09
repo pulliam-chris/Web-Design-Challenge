@@ -1,2 +1,2 @@
 # Web-Design-Challenge
-Deploy a webpage using Bootstrap and CSS
+Deploy a website using Bootstrap and CSS
