@@ -1,3 +1,29 @@
-.navbar-Nav {
+h1 {
+  font-size: 16vw;
+  text-align: center;
+  font-family: "Helvetica Neue";
+}
+
+h3 {
+  text-align: center;
+}
+
+table {
+  text-align: center;
+}
+
+div.row {
+  text-align: center;
+}
+
+#main-content {
+  float:left;
+  text-align: left;
+}
+
+#sidebar {
   float: right;
+}
+#sidebar.h3 {
+  text-align: center;
 }
