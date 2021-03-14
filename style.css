@@ -6,14 +6,24 @@ table {
   text-align: center;
 }
 
+#comparisons-top {
+  text-align: center;
+}
+
+#comparisons-bottom {
+  text-align: center;
+}
+
 #main-content {
   float:left;
   text-align: left;
+  vertical-align: center;
 }
 
 #sidebar {
   float: center;
   align-items: center;
+  vertical-align: center;
 }
 
 #sidebar.h3 {
