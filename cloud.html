@@ -37,13 +37,52 @@
     </div>
     </nav>
 
-  <h3>Cloudiness Plot</h3>
-
-  <div>
-      <a href="images/Lat_Cloudiness_Scatter.png">
-        <img src="images/Lat_Cloudiness_Scatter.png" width=500 alt="A scatterplot of city latitude vs. cloudiness percentage, showing no relationship between the two.">
-      </a>
+  <div class=".d-sm-inline-flex" id="flex-container">
+    <div class="row"> 
+      <div class="col-sm-8" id="main-content">
+        <div class="p-3 border bg-light">
+          <h3>Cloudiness Plot</h3> 
+          <div class="d-flex bd-highlight mb-3">
+            <img src="images/Lat_Cloudiness_Scatter.png" width=500 alt="A scatterplot of city latitude vs. maximum temperature.">
+            <p>Cloudiness analysis
+            </p> 
+          </div>
+      </div>
+    </div>
+    
+      <div class="col-sm-4" id="sidebar">
+      <div class="p-3 border bg-light">
+        <h3>Visualizations</h3>
+        <div class="d-flex bd-highlight mb-3">
+          <div class="row">
+            <div class="p-2 bd-highlight">
+              <a href="cloud.html">
+              <img src="images/Lat_Cloudiness_Scatter.png" width=125px alt="A scatterplot of city latitude vs. cloudiness percentage, showing no relationship between the two.">
+              </a>  
+            </div>
+            <div class="p-2 bd-highlight">
+              <a href="humidity.html">
+            <img src="images/Lat_Humidity_Scatter.png" width=125px alt="A scatterplot of city latitude vs. humidity percentage, showing no relationship between the two.">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="p-2 bd-highlight">
+            <a href="wind.html">
+            <img src="images/Lat_Wind_Scatter.png" width=125px alt="A scatterplot of city latitude vs. wind speed, showing no relationship between the two.">
+            </a>
+          </div>
+          <div class="p-2 bd-highlight">
+            <a href="maxtemp.html">
+            <img src="images/Lat_MaxTemp_Scatter.png" width=125px alt="A scatterplot of city latitude vs. maximum temperature, showing a pretty clear relationship.">
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+  
   </div>
+
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
