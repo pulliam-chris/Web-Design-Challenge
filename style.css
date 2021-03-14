@@ -24,8 +24,17 @@ table {
   float: center;
   align-items: center;
   vertical-align: center;
+  justify-content: center;
 }
 
 #sidebar.h3 {
   text-align: center;
+}
+
+#sidebar.img {
+  align-items: center;
+}
+
+.clearfix {
+  overflow: auto;
 }

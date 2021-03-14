@@ -37,17 +37,18 @@
       </div>
       </nav>
     
-    <div class=".d-sm-inline-flex" id="flex-container">
+    <div class=".d-sm-flex" id="flex-container">
         <div class="row"> 
-          <div class="col-sm-8" id="main-content">
+          <div class="col-sm-8 clear-fix" id="main-content">
             <div class="p-3 border bg-light">
-              <h3>Summary: Latitude vs. X</h3> 
-              <div class="d-flex bd-highlight mb-3">
-                <img src="images/Lat_MaxTemp_Scatter.png" alt="A scatterplot of city latitude vs. maximum temperature." style="float:left;width:300px;height:200px">
+              <h3>Summary: Latitude vs. X</h3>
+              <div class="d-md-inline-flex bd-highlight mb-3">
+                <img src="images/Lat_MaxTemp_Scatter.png" height=250px alt="A scatterplot of city latitude vs. maximum temperature.">
+                
                 <p>This is portion of an analysis that was done using the OpenWeather API that collected current weather information on nearly 500 cities to gauge the impact of a location's latitude on current weather conditions.  
                    The analysis was performed on data collected on 2/3/2021.
                    Once the data was collected and the cities with no recorded data were removed, Matplotlib was used to generate the scatterplots.</p> 
-                </p> 
+                </p>
               </div>
           </div>
         </div>
@@ -56,7 +57,7 @@
           <div class="p-3 border bg-light">
             <h3>Visualizations</h3>
             <div class="d-flex bd-highlight mb-3">
-              <div class="row">
+              <div class="row justify-content-center">
                 <div class="p-2 bd-highlight">
                   <a href="cloud.html">
                   <img src="images/Lat_Cloudiness_Scatter.png" width=125px alt="A scatterplot of city latitude vs. cloudiness percentage, showing no relationship between the two.">
